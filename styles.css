@@ -1,0 +1,264 @@
+
+    #navbar {
+        background-color: white; height: 50px; position: sticky; width: 100%;z-index:1;top:0;left: 0; box-shadow: 10% 
+    }
+
+    h2 {
+        color: black;
+        font-size: 50px;
+        font-family: Arial;
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+    }
+
+    h4 {
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .project_desc {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        font-size:90px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin: 0px;
+        margin-left: 20px;
+        color: white;
+    }
+
+    .titles {
+        color: black;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        margin: 0px;
+        margin-left: 30px;
+        font-size: 60px;
+    }
+
+    .desc {
+        font-size: 20px;
+        margin-left: 20px;
+
+    }
+
+    .caption {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+    .line {
+        width: 200px; /* Adjust width as needed */
+        height: 5px; /* Adjust height as needed */
+        background-color: orange; /* Adjust color as needed */
+          
+        margin-left: 20px;
+    }
+
+    .hr_desc {
+        width: 500px;
+        margin: 0px;
+        margin-left: 30px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        float: right; margin: 0; padding: 16px; size: 200px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center; /* Vertical alignment */
+        background-color: black;
+        margin: 0 auto;
+    }
+
+    .photo {
+        flex: 1; /* Grow to fill available space */
+    }
+
+    .text {
+        flex: 2; /* Grow to fill available space */
+        padding: 0 20px; 
+        color: white;
+    }
+
+    .img_portrait {
+        width: 100%; /* image fills the container */
+        height: auto; 
+        display: block; 
+    }
+
+    /* CSS for navbar */
+    .ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .li {
+        float: left;
+    }
+
+    .logo {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .projects {
+        height: 700px;
+        background-color: white;
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+
+    }
+
+
+
+    /* CSS for skills */
+
+    #skills {
+        color: white;
+    }
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .bg {
+        background-image: url(IMG/bg.png);
+        background-size: cover;
+    }
+
+    .skills-row {
+        display: flex;
+    }
+
+    .skill {
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid orange;
+        background-color:white ;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .bottom-skill {
+        margin-top: 40px; 
+    }
+
+    .skill h2 {
+        margin-bottom: 10px;
+    }
+
+    .skill p {
+        margin-top: 0;
+    }
+
+
+    /* CSS for projects */
+    .flex-container_proj {
+        display: flex;
+        flex-direction:nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .flex-item_proj {
+        text-align: center;
+        margin: 10px;
+        max-width: 25%;
+        flex-grow: 1;
+    }
+
+    .flex-item_proj img {
+        width: 200px; /* Adjust size as needed */
+        height: auto;
+        border: 1px solid #ccc;
+
+    }
+    .flex-item_proj img:hover {
+        border: 3px solid black;
+    }
+
+    .flex-item_proj p {
+        margin-top: 5px;
+    }
+
+    /* CSS for footer */
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .footer-left {
+        flex: 1;
+    }
+
+    .footer-right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .contact-info {
+        margin-right: 20px;
+    }
+
+    .social-icons a {
+        margin-left: 10px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .icon {
+        width: 100px;
+    }
+
+
+
